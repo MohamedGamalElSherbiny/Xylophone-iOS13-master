@@ -18,13 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="6qe-90-xss">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0tz-Xf-Cwd" userLabel="C">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="111"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="111"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Nn-Af-khm">
-                                                <rect key="frame" x="7" y="0.5" width="400" height="110"/>
+                                                <rect key="frame" x="-13" y="0.5" width="400" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="400" id="s4F-Tb-JFB"/>
@@ -34,6 +34,9 @@
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qJf-hS-KQR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -43,10 +46,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l06-9Z-pX0" userLabel="D">
-                                        <rect key="frame" x="0.0" y="118" width="414" height="110.5"/>
+                                        <rect key="frame" x="0.0" y="118" width="374" height="110.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z04-aZ-Xp9">
-                                                <rect key="frame" x="17" y="0.5" width="380" height="110"/>
+                                                <rect key="frame" x="-3" y="0.5" width="380" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="380" id="Nne-Js-aY6"/>
@@ -56,6 +59,9 @@
                                                 <state key="normal" title="D">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tK6-C0-3tx"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -65,10 +71,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPr-xy-0b3" userLabel="E">
-                                        <rect key="frame" x="0.0" y="235.5" width="414" height="111"/>
+                                        <rect key="frame" x="0.0" y="235.5" width="374" height="111"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sP-7r-oV0">
-                                                <rect key="frame" x="27" y="0.5" width="360" height="110"/>
+                                                <rect key="frame" x="7" y="0.5" width="360" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="360" id="IML-PO-mpC"/>
@@ -78,6 +84,9 @@
                                                 <state key="normal" title="E">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdj-kf-xxP"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -87,10 +96,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pl0-Rb-s2S" userLabel="F">
-                                        <rect key="frame" x="0.0" y="353.5" width="414" height="111"/>
+                                        <rect key="frame" x="0.0" y="353.5" width="374" height="111"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccP-gO-BSy">
-                                                <rect key="frame" x="32" y="0.5" width="350" height="110"/>
+                                                <rect key="frame" x="12" y="0.5" width="350" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="110" id="1Hs-aC-nYB"/>
@@ -100,6 +109,9 @@
                                                 <state key="normal" title="F">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oXI-j6-tpY"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -109,10 +121,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bGF-gc-L7H" userLabel="G">
-                                        <rect key="frame" x="0.0" y="471.5" width="414" height="111"/>
+                                        <rect key="frame" x="0.0" y="471.5" width="374" height="111"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXe-KV-uaF">
-                                                <rect key="frame" x="37" y="0.5" width="340" height="110"/>
+                                                <rect key="frame" x="17" y="0.5" width="340" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="340" id="FMC-v0-ht4"/>
@@ -122,6 +134,9 @@
                                                 <state key="normal" title="G">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wKY-Rl-52Q"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -131,10 +146,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UQT-Gm-Evw" userLabel="A">
-                                        <rect key="frame" x="0.0" y="589.5" width="414" height="110.5"/>
+                                        <rect key="frame" x="0.0" y="589.5" width="374" height="110.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpt-y2-0cg">
-                                                <rect key="frame" x="42" y="0.0" width="330" height="110"/>
+                                                <rect key="frame" x="22" y="0.0" width="330" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="110" id="Dfy-tC-cWf"/>
@@ -144,6 +159,9 @@
                                                 <state key="normal" title="A">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ds0-Zo-l1U"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -153,10 +171,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IQo-Lu-hlZ" userLabel="B">
-                                        <rect key="frame" x="0.0" y="707" width="414" height="111"/>
+                                        <rect key="frame" x="0.0" y="707" width="374" height="111"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrN-ay-dG7">
-                                                <rect key="frame" x="47" y="0.5" width="320" height="110"/>
+                                                <rect key="frame" x="27" y="0.5" width="320" height="110"/>
                                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="110" id="Gbh-gA-xD5"/>
@@ -166,6 +184,9 @@
                                                 <state key="normal" title="B">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wq3-B0-9Qs"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -180,8 +201,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6qe-90-xss" secondAttribute="trailing" id="5Rg-wa-axc"/>
-                            <constraint firstItem="6qe-90-xss" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EhP-Yq-8Mz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6qe-90-xss" secondAttribute="trailing" constant="20" id="5Rg-wa-axc"/>
+                            <constraint firstItem="6qe-90-xss" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EhP-Yq-8Mz"/>
                             <constraint firstItem="6qe-90-xss" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="W85-DY-UVb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6qe-90-xss" secondAttribute="bottom" id="Zcd-Eg-Xxr"/>
                         </constraints>

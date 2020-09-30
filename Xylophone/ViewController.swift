@@ -14,7 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print(sender.titleLabel?.text! as Any)
+    }
+    
     
 
 }
