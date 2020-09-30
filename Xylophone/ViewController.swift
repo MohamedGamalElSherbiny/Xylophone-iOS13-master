@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: UIButton) {
         if let buttonName = sender.titleLabel?.text {  // Get the title of the button pressed
             playSound(buttonName)  // Run the function of sound
+            sender.alpha = 0.5  // To give an opacity to the clicked button
+            Timer.scheduledTimer(withTimeInterval: 0.1, repeats: false) { (Timer) in  // To return the button to its origin
+                sender.alpha = 1
+            }
         }
     }
     
